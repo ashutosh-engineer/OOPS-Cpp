@@ -109,5 +109,32 @@ This repository will include:
 ## Learning Journey
 This repo will be updated as I continue learning and practicing OOPs in C++. The goal is to build a clear path from beginner concepts to advanced object-oriented design.
 
+## Progress Tracker
+A separate tracker file is available here: [LEARNING_TRACKER.md](./LEARNING_TRACKER.md)
+
+### Completed Topics and Files
+- [x] Access Modifiers — [Acess_modifiers.cpp](./Acess_modifiers.cpp)
+- [x] Encapsulation — [Encapsulation.cpp](./Encapsulation.cpp)
+- [x] Classes and Objects — [oops.cpp](./oops.cpp)
+- [x] Single Inheritance — [Inheritance.cpp](./Inheritance.cpp)
+- [x] Multiple Inheritance — [multiple_inherit.cpp](./multiple_inherit.cpp)
+- [x] Multilevel Inheritance — [multilevel_inherit.cpp](./multilevel_inherit.cpp)
+- [x] Hierarchical Inheritance — [hirerichal_inheritance.cpp](./hirerichal_inheritance.cpp)
+
+### Next Topics to Learn
+1. Polymorphism
+2. Constructors and Destructors
+3. Operator Overloading
+4. Virtual Functions
+5. Friend functions and classes
+6. Static members and this pointer
+7. Templates and STL
+8. File Handling
+
+### Status Summary
+- Learned so far: Access modifiers, encapsulation, classes and objects, and all major inheritance types.
+- Next in line: polymorphism and constructor/destructor concepts.
+- Goal: finish the remaining OOPs topics from the syllabus and revise with practice programs.
+
 ## Note
 This is a personal academic and learning repository focused on deep understanding of OOPs in C++.
