@@ -30,7 +30,7 @@ The purpose of this repository is to:
 - improve problem-solving ability
 - revise important concepts before exams and interviews
 
-## Topics Covered
+T## opics Covered
 
 ### 1. Introduction to C++
 - History and features of C++
@@ -39,8 +39,7 @@ The purpose of this repository is to:
 - Input/output streams
 - Namespace and standard library
 
-### 2. Basics of Programming
-- Variables and data types
+### 2. Basics of Programms
 - Operators
 - Control statements
 - Loops
@@ -54,7 +53,8 @@ The purpose of this repository is to:
 - Encapsulation
 - Abstraction
 - Modularity
-
+ing
+- Variables and data type
 ### 4. Constructors and Destructors
 - Default constructor
 - Parameterized constructor
@@ -98,12 +98,6 @@ The purpose of this repository is to:
 - Lists
 - Stacks and queues
 - Maps
-
-### 10. Practice and Revision
-- Programs for each concept
-- Assignment-style questions
-- Lab exercises
-- Exam-oriented revision notes
 
 ## Repository Structure
 This repository will include:
