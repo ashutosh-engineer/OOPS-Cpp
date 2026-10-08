@@ -120,20 +120,21 @@ A separate tracker file is available here: [LEARNING_TRACKER.md](./LEARNING_TRAC
 - [x] Multiple Inheritance — [multiple_inherit.cpp](./multiple_inherit.cpp)
 - [x] Multilevel Inheritance — [multilevel_inherit.cpp](./multilevel_inherit.cpp)
 - [x] Hierarchical Inheritance — [hirerichal_inheritance.cpp](./hirerichal_inheritance.cpp)
+- [x] Constructors and Destructors — [Default_constructor.cpp](./Default_constructor.cpp), [parameterized.cpp](./parameterized.cpp), [copy_constructor.cpp](./copy_constructor.cpp), [constructor_overloading.cpp](./constructor_overloading.cpp)
+- [x] Compile-time Polymorphism — [compile-time.cpp](./polymorphism/compile-time.cpp)
+- [x] Runtime Polymorphism — [runtime.cpp](./polymorphism/runtime.cpp)
 
 ### Next Topics to Learn
-1. Polymorphism
-2. Constructors and Destructors
-3. Operator Overloading
-4. Virtual Functions
-5. Friend functions and classes
-6. Static members and this pointer
-7. Templates and STL
-8. File Handling
+1. Friend functions and friend classes
+2. Static members and `this` pointer
+3. Dynamic memory allocation
+4. Shallow copy and deep copy
+5. Templates and STL basics
+6. File Handling
 
 ### Status Summary
-- Learned so far: Access modifiers, encapsulation, classes and objects, and all major inheritance types.
-- Next in line: polymorphism and constructor/destructor concepts.
+- Learned so far: Access modifiers, encapsulation, classes and objects, all major inheritance types, constructors, destructors, and polymorphism.
+- Next in line: friend functions and classes.
 - Goal: finish the remaining OOPs topics from the syllabus and revise with practice programs.
 
 ## Note
