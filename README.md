@@ -120,9 +120,13 @@ A separate tracker file is available here: [LEARNING_TRACKER.md](./LEARNING_TRAC
 - [x] Multiple Inheritance — [multiple_inherit.cpp](./multiple_inherit.cpp)
 - [x] Multilevel Inheritance — [multilevel_inherit.cpp](./multilevel_inherit.cpp)
 - [x] Hierarchical Inheritance — [hirerichal_inheritance.cpp](./hirerichal_inheritance.cpp)
-- [x] Constructors and Destructors — [Default_constructor.cpp](./Default_constructor.cpp), [parameterized.cpp](./parameterized.cpp), [copy_constructor.cpp](./copy_constructor.cpp), [constructor_overloading.cpp](./constructor_overloading.cpp)
+- [x] Constructors — [Constructors.cpp](./Constructors.cpp), [Default_constructor.cpp](./Default_constructor.cpp), [parameterized.cpp](./parameterized.cpp)
+- [x] Constructor Initialization List — [constructor_initlializaton_list.cpp](./constructor_initlializaton_list.cpp)
+- [x] Copy Constructor — [copy_constructor.cpp](./copy_constructor.cpp)
+- [x] Constructor Overloading — [constructor_overloading.cpp](./constructor_overloading.cpp)
+- [x] Destructor — [Destructor.cpp](./Destructor.cpp)
 - [x] Compile-time Polymorphism — [compile-time.cpp](./polymorphism/compile-time.cpp)
-- [x] Runtime Polymorphism — [runtime.cpp](./polymorphism/runtime.cpp)
+- [x] Runtime Polymorphism — [runtime.cpp](./polymorphism/runtime.cpp), [virtual_functions.cpp](./virtual_functions.cpp)
 
 ### Next Topics to Learn
 1. Friend functions and friend classes
@@ -132,9 +136,40 @@ A separate tracker file is available here: [LEARNING_TRACKER.md](./LEARNING_TRAC
 5. Templates and STL basics
 6. File Handling
 
+### C++ Interview Concepts
+- [ ] Stack vs heap memory
+- [ ] Pointers, references, `const` correctness, and `nullptr`
+- [ ] RAII and resource management
+- [ ] Smart pointers: `unique_ptr`, `shared_ptr`, and `weak_ptr`
+- [ ] Rule of 3, Rule of 5, and Rule of 0
+- [ ] Move constructor and move assignment
+- [ ] Lvalues, rvalues, and `std::move`
+- [ ] Virtual destructor, object slicing, and virtual table basics
+- [ ] Diamond problem and virtual inheritance
+- [ ] Exception handling and exception safety
+- [ ] STL iterators, algorithms, and time complexity
+- [ ] `static`, `const`, `constexpr`, and `inline`
+- [ ] Casting: `static_cast`, `dynamic_cast`, `const_cast`, and `reinterpret_cast`
+- [ ] Templates, lambdas, and modern C++ features
+
+### Low-Level Design (LLD) Roadmap
+- [ ] OOP design principles and composition over inheritance
+- [ ] SOLID principles
+- [ ] Cohesion, coupling, and separation of concerns
+- [ ] Interfaces and dependency inversion
+- [ ] UML class diagrams and relationships
+- [ ] Designing extensible and testable classes
+- [ ] Creational design patterns: Factory, Builder, and Singleton
+- [ ] Structural design patterns: Adapter, Decorator, Facade, and Composite
+- [ ] Behavioral design patterns: Strategy, Observer, State, and Command
+- [ ] Thread-safe design and basic concurrency
+- [ ] Error handling, validation, and edge-case design
+- [ ] LLD case studies: parking lot, elevator, library, and vending machine
+
 ### Status Summary
 - Learned so far: Access modifiers, encapsulation, classes and objects, all major inheritance types, constructors, destructors, and polymorphism.
 - Next in line: friend functions and classes.
+- Interview preparation and LLD will be covered after the core OOP topics, alongside practical design exercises.
 - Goal: finish the remaining OOPs topics from the syllabus and revise with practice programs.
 
 ## Note
