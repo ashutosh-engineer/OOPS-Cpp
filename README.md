@@ -19,8 +19,6 @@ The main focus is on building a strong conceptual foundation in:
 - Constructors and Destructors
 - Operator Overloading
 - Virtual Functions
-- Templates and STL basics
-- File Handling in C++
 
 ## Objectives
 The purpose of this repository is to:
@@ -86,19 +84,6 @@ ing
 - Dynamic memory allocation
 - Shallow copy vs deep copy
 
-### 8. File Handling
-- Reading and writing files
-- File streams
-- Text files and binary files
-
-### 9. Templates and STL Basics
-- Function templates
-- Class templates
-- Vectors
-- Lists
-- Stacks and queues
-- Maps
-
 ## Repository Structure
 This repository will include:
 - source code files for concepts
@@ -127,14 +112,13 @@ A separate tracker file is available here: [LEARNING_TRACKER.md](./LEARNING_TRAC
 - [x] Destructor — [Destructor.cpp](./Destructor.cpp)
 - [x] Compile-time Polymorphism — [compile-time.cpp](./polymorphism/compile-time.cpp)
 - [x] Runtime Polymorphism — [runtime.cpp](./polymorphism/runtime.cpp), [virtual_functions.cpp](./virtual_functions.cpp)
+- [x] Friend Function and Friend Class
+- [x] Static Members and `this` Pointer
 
 ### Next Topics to Learn
-1. Friend functions and friend classes
-2. Static members and `this` pointer
-3. Dynamic memory allocation
-4. Shallow copy and deep copy
-5. Templates and STL basics
-6. File Handling
+1. Shallow Copy vs Deep Copy
+2. C++ Interview Preparation
+3. Low-Level Design (LLD)
 
 ### C++ Interview Concepts
 - [ ] Stack vs heap memory
@@ -147,10 +131,9 @@ A separate tracker file is available here: [LEARNING_TRACKER.md](./LEARNING_TRAC
 - [ ] Virtual destructor, object slicing, and virtual table basics
 - [ ] Diamond problem and virtual inheritance
 - [ ] Exception handling and exception safety
-- [ ] STL iterators, algorithms, and time complexity
 - [ ] `static`, `const`, `constexpr`, and `inline`
 - [ ] Casting: `static_cast`, `dynamic_cast`, `const_cast`, and `reinterpret_cast`
-- [ ] Templates, lambdas, and modern C++ features
+- [ ] Lambdas and modern C++ features
 
 ### Low-Level Design (LLD) Roadmap
 - [ ] OOP design principles and composition over inheritance
@@ -168,7 +151,7 @@ A separate tracker file is available here: [LEARNING_TRACKER.md](./LEARNING_TRAC
 
 ### Status Summary
 - Learned so far: Access modifiers, encapsulation, classes and objects, all major inheritance types, constructors, destructors, and polymorphism.
-- Next in line: friend functions and classes.
+- Next in line: shallow copy vs deep copy.
 - Interview preparation and LLD will be covered after the core OOP topics, alongside practical design exercises.
 - Goal: finish the remaining OOPs topics from the syllabus and revise with practice programs.
 
