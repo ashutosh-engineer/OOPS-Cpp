@@ -114,17 +114,24 @@ A separate tracker file is available here: [LEARNING_TRACKER.md](./LEARNING_TRAC
 - [x] Runtime Polymorphism — [runtime.cpp](./polymorphism/runtime.cpp), [virtual_functions.cpp](./virtual_functions.cpp)
 - [x] Friend Function and Friend Class
 - [x] Static Members and `this` Pointer
+- [x] `this` Pointer — [Thispointer.cpp](./Thispointer.cpp)
+- [x] Pointers and References — [pointers.cpp](./pointers.cpp)
+- [x] RAII and Resource Management — [RAII.cpp](./RAII.cpp)
+- [x] Smart Pointers — [Shared_pointers.cpp](./Shared_pointers.cpp)
 
 ### Next Topics to Learn
-1. Shallow Copy vs Deep Copy
-2. C++ Interview Preparation
-3. Low-Level Design (LLD)
+1. Rule of 3, Rule of 5, and Rule of 0
+2. Move Semantics
+3. Lvalues, Rvalues, and `std::move`
+4. Virtual Destructors, Object Slicing, and vtable basics
+5. Exception Safety
+6. Low-Level Design (LLD)
 
 ### C++ Interview Concepts
 - [ ] Stack vs heap memory
-- [ ] Pointers, references, `const` correctness, and `nullptr`
-- [ ] RAII and resource management
-- [ ] Smart pointers: `unique_ptr`, `shared_ptr`, and `weak_ptr`
+- [x] Pointers, references, `const` correctness, and `nullptr` — [pointers.cpp](./pointers.cpp)
+- [x] RAII and resource management — [RAII.cpp](./RAII.cpp)
+- [x] Smart pointers: `unique_ptr`, `shared_ptr`, and `weak_ptr` — [Shared_pointers.cpp](./Shared_pointers.cpp)
 - [ ] Rule of 3, Rule of 5, and Rule of 0
 - [ ] Move constructor and move assignment
 - [ ] Lvalues, rvalues, and `std::move`
@@ -149,10 +156,15 @@ A separate tracker file is available here: [LEARNING_TRACKER.md](./LEARNING_TRAC
 - [ ] Error handling, validation, and edge-case design
 - [ ] LLD case studies: parking lot, elevator, library, and vending machine
 
+### Final Project
+- [ ] Parking Lot Management System
+  - Apply OOP, SOLID, smart pointers, design patterns, and LLD principles.
+  - Implement vehicles, parking spots, floors, tickets, payments, and entry/exit flow.
+
 ### Status Summary
 - Learned so far: Access modifiers, encapsulation, classes and objects, all major inheritance types, constructors, destructors, and polymorphism.
-- Next in line: shallow copy vs deep copy.
-- Interview preparation and LLD will be covered after the core OOP topics, alongside practical design exercises.
+- Next in line: Rule of 3, Rule of 5, Rule of 0, and move semantics.
+- Final project: Parking Lot Management System.
 - Goal: finish the remaining OOPs topics from the syllabus and revise with practice programs.
 
 ## Note
