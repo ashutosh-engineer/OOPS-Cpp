@@ -121,7 +121,7 @@ A separate tracker file is available here: [LEARNING_TRACKER.md](./LEARNING_TRAC
 
 ### Next Topics to Learn
 1. Rule of 3, Rule of 5, and Rule of 0
-2. Move Semantics
+2. Move Constructor and Move Assignment
 3. Lvalues, Rvalues, and `std::move`
 4. Virtual Destructors, Object Slicing, and vtable basics
 5. Exception Safety
