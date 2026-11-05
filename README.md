@@ -111,10 +111,6 @@ This repository tracks my understanding and practice of Object-Oriented Programm
 - [x] Rule of 5 — [ruleof5.cpp](./05_Memory_And_Resource_Management/ruleof5.cpp)
 - [x] Rule of 0 — [ruleof0.cpp](./05_Memory_And_Resource_Management/ruleof0.cpp)
 
-## Progress Tracker
-
-See [LEARNING_TRACKER.md](./LEARNING_TRACKER.md) for the revision status.
-
 ## Status Summary
 
 - The planned C++ OOP syllabus is complete.
