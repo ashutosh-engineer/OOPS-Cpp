@@ -1,34 +1,13 @@
-# OOPs in C++ - Detailed Learning Repository
+# OOPs in C++ - Learning Repository
 
-This repository is dedicated to my journey of learning Object-Oriented Programming (OOPs) in C++ in a detailed and structured way.
+This repository tracks my understanding and practice of Object-Oriented Programming in C++.
 
 ## Author
 - Ashutosh Singh
 - 3rd Semester
 - Parul Institute of Engineering and Technology
 
-## Overview
-This repo will cover the core principles of OOPs in C++ and provide practical programs, examples, and notes for better understanding.
-
-The main focus is on building a strong conceptual foundation in:
-- Classes and Objects
-- Data Abstraction
-- Encapsulation
-- Inheritance
-- Polymorphism
-- Constructors and Destructors
-- Operator Overloading
-- Virtual Functions
-
-## Objectives
-The purpose of this repository is to:
-- learn C++ systematically
-- understand OOPs concepts deeply
-- practice real coding examples
-- improve problem-solving ability
-- revise important concepts before exams and interviews
-
-T## opics Covered
+## Syllabus
 
 ### 1. Introduction to C++
 - History and features of C++
@@ -37,7 +16,7 @@ T## opics Covered
 - Input/output streams
 - Namespace and standard library
 
-### 2. Basics of Programms
+### 2. Basics of Programming
 - Operators
 - Control statements
 - Loops
@@ -45,20 +24,21 @@ T## opics Covered
 - Arrays and strings
 
 ### 3. Object-Oriented Programming Concepts
-- Class and object
+- Classes and objects
 - Data members and member functions
 - Access specifiers
 - Encapsulation
 - Abstraction
 - Modularity
-ing
-- Variables and data type
+
 ### 4. Constructors and Destructors
 - Default constructor
 - Parameterized constructor
 - Copy constructor
+- Copy assignment operator
 - Destructor
 - Constructor overloading
+- Constructor initialization list
 
 ### 5. Inheritance
 - Single inheritance
@@ -76,96 +56,78 @@ ing
 - Virtual functions
 - Pure virtual functions and abstract classes
 
-### 7. Advanced OOPs Concepts
+### 7. Advanced OOP Concepts
 - Friend function
 - Friend class
 - Static members
-- This pointer
+- `this` pointer
 - Dynamic memory allocation
 - Shallow copy vs deep copy
+- RAII and smart pointers
 
-## Repository Structure
-This repository will include:
-- source code files for concepts
-- practice exercises
-- examples and mini-projects
-- notes and explanations
+## Topic-wise Files
 
-## Learning Journey
-This repo will be updated as I continue learning and practicing OOPs in C++. The goal is to build a clear path from beginner concepts to advanced object-oriented design.
+### OOP Fundamentals
+- [x] Classes and Objects — [oops.cpp](./01_OOP_Fundamentals/oops.cpp)
+- [x] Access Modifiers — [Acess_modifiers.cpp](./01_OOP_Fundamentals/Acess_modifiers.cpp)
+- [x] Encapsulation — [Encapsulation.cpp](./01_OOP_Fundamentals/Encapsulation.cpp)
+- [x] Friend Function — [freind_function.cpp](./01_OOP_Fundamentals/freind_function.cpp)
+- [x] Friend Class — [freindclass.cpp](./01_OOP_Fundamentals/freindclass.cpp)
+- [x] Static Members — [static_functions.cpp](./01_OOP_Fundamentals/static_functions.cpp)
+- [x] `this` Pointer — [Thispointer.cpp](./01_OOP_Fundamentals/Thispointer.cpp)
+
+### Inheritance
+- [x] Single Inheritance — [Inheritance.cpp](./02_Inheritance/Inheritance.cpp)
+- [x] Multiple Inheritance — [multiple_inherit.cpp](./02_Inheritance/multiple_inherit.cpp)
+- [x] Multilevel Inheritance — [multilevel_inherit.cpp](./02_Inheritance/multilevel_inherit.cpp)
+- [x] Hierarchical Inheritance — [hirerichal_inheritance.cpp](./02_Inheritance/hirerichal_inheritance.cpp)
+
+### Constructors and Destructors
+- [x] Constructors — [Constructors.cpp](./03_Constructors_Destructors/Constructors.cpp)
+- [x] Default Constructor — [Default_constructor.cpp](./03_Constructors_Destructors/Default_constructor.cpp)
+- [x] Parameterized Constructor — [parameterized.cpp](./03_Constructors_Destructors/parameterized.cpp)
+- [x] Constructor Initialization List — [constructor_initlializaton_list.cpp](./03_Constructors_Destructors/constructor_initlializaton_list.cpp)
+- [x] Copy Constructor — [copy_constructor.cpp](./03_Constructors_Destructors/copy_constructor.cpp)
+- [x] Copy Assignment Operator — [revisosn.cpp](./03_Constructors_Destructors/revisosn.cpp)
+- [x] Constructor Overloading — [constructor_overloading.cpp](./03_Constructors_Destructors/constructor_overloading.cpp)
+- [x] Destructor — [Destructor.cpp](./03_Constructors_Destructors/Destructor.cpp)
+
+### Polymorphism
+- [x] Compile-time Polymorphism — [compile-time.cpp](./04_Polymorphism/compile-time.cpp)
+- [x] Runtime Polymorphism — [runtime.cpp](./04_Polymorphism/runtime.cpp)
+- [x] Virtual Functions — [virtual_functions.cpp](./04_Polymorphism/virtual_functions.cpp)
+- [x] Pure Virtual Functions and Abstract Classes — [Purevirt.cpp](./04_Polymorphism/Purevirt.cpp)
+
+### Memory and Resource Management
+- [x] Pointers and References — [pointers.cpp](./05_Memory_And_Resource_Management/pointers.cpp)
+- [x] Const References — [constrefrence.cpp](./05_Memory_And_Resource_Management/constrefrence.cpp)
+- [x] Pass by Value and Reference — [passbyvalue&ref.cpp](./05_Memory_And_Resource_Management/passbyvalue&ref.cpp)
+- [x] RAII — [RAII.cpp](./05_Memory_And_Resource_Management/RAII.cpp)
+- [x] Smart Pointers — [Shared_pointers.cpp](./05_Memory_And_Resource_Management/Shared_pointers.cpp)
+- [x] Unique Pointers — [Unique_ptr.cpp](./05_Memory_And_Resource_Management/Unique_ptr.cpp)
+- [x] Weak Pointers — [Weakptrs.cpp](./05_Memory_And_Resource_Management/Weakptrs.cpp)
+- [x] Virtual Destructor — [virtaul_destructor.cpp](./05_Memory_And_Resource_Management/virtaul_destructor.cpp)
+- [x] Rule of 3 — [ruleof3.cpp](./05_Memory_And_Resource_Management/ruleof3.cpp)
+- [x] Rule of 5 — [ruleof5.cpp](./05_Memory_And_Resource_Management/ruleof5.cpp)
+- [x] Rule of 0 — [ruleof0.cpp](./05_Memory_And_Resource_Management/ruleof0.cpp)
 
 ## Progress Tracker
-A separate tracker file is available here: [LEARNING_TRACKER.md](./LEARNING_TRACKER.md)
 
-### Completed Topics and Files
-- [x] Access Modifiers — [Acess_modifiers.cpp](./Acess_modifiers.cpp)
-- [x] Encapsulation — [Encapsulation.cpp](./Encapsulation.cpp)
-- [x] Classes and Objects — [oops.cpp](./oops.cpp)
-- [x] Single Inheritance — [Inheritance.cpp](./Inheritance.cpp)
-- [x] Multiple Inheritance — [multiple_inherit.cpp](./multiple_inherit.cpp)
-- [x] Multilevel Inheritance — [multilevel_inherit.cpp](./multilevel_inherit.cpp)
-- [x] Hierarchical Inheritance — [hirerichal_inheritance.cpp](./hirerichal_inheritance.cpp)
-- [x] Constructors — [Constructors.cpp](./Constructors.cpp), [Default_constructor.cpp](./Default_constructor.cpp), [parameterized.cpp](./parameterized.cpp)
-- [x] Constructor Initialization List — [constructor_initlializaton_list.cpp](./constructor_initlializaton_list.cpp)
-- [x] Copy Constructor — [copy_constructor.cpp](./copy_constructor.cpp)
-- [x] Constructor Overloading — [constructor_overloading.cpp](./constructor_overloading.cpp)
-- [x] Destructor — [Destructor.cpp](./Destructor.cpp)
-- [x] Compile-time Polymorphism — [compile-time.cpp](./polymorphism/compile-time.cpp)
-- [x] Runtime Polymorphism — [runtime.cpp](./polymorphism/runtime.cpp), [virtual_functions.cpp](./virtual_functions.cpp)
-- [x] Friend Function and Friend Class
-- [x] Static Members and `this` Pointer
-- [x] `this` Pointer — [Thispointer.cpp](./Thispointer.cpp)
-- [x] Pointers and References — [pointers.cpp](./pointers.cpp)
-- [x] RAII and Resource Management — [RAII.cpp](./RAII.cpp)
-- [x] Smart Pointers — [Shared_pointers.cpp](./Shared_pointers.cpp)
+See [LEARNING_TRACKER.md](./LEARNING_TRACKER.md) for the revision status.
 
-### Next Topics to Learn
-1. Rule of 3, Rule of 5, and Rule of 0
-2. Move Constructor and Move Assignment
-3. Lvalues, Rvalues, and `std::move`
-4. Virtual Destructors, Object Slicing, and vtable basics
-5. Exception Safety
-6. Low-Level Design (LLD)
+## Status Summary
 
-### C++ Interview Concepts
-- [ ] Stack vs heap memory
-- [x] Pointers, references, `const` correctness, and `nullptr` — [pointers.cpp](./pointers.cpp)
-- [x] RAII and resource management — [RAII.cpp](./RAII.cpp)
-- [x] Smart pointers: `unique_ptr`, `shared_ptr`, and `weak_ptr` — [Shared_pointers.cpp](./Shared_pointers.cpp)
-- [ ] Rule of 3, Rule of 5, and Rule of 0
-- [ ] Move constructor and move assignment
-- [ ] Lvalues, rvalues, and `std::move`
-- [ ] Virtual destructor, object slicing, and virtual table basics
-- [ ] Diamond problem and virtual inheritance
-- [ ] Exception handling and exception safety
-- [ ] `static`, `const`, `constexpr`, and `inline`
-- [ ] Casting: `static_cast`, `dynamic_cast`, `const_cast`, and `reinterpret_cast`
-- [ ] Lambdas and modern C++ features
+- The planned C++ OOP syllabus is complete.
+- The repository now focuses on understanding and practical revision.
+- The next step is the Parking Lot Management System.
 
-### Low-Level Design (LLD) Roadmap
-- [ ] OOP design principles and composition over inheritance
-- [ ] SOLID principles
-- [ ] Cohesion, coupling, and separation of concerns
-- [ ] Interfaces and dependency inversion
-- [ ] UML class diagrams and relationships
-- [ ] Designing extensible and testable classes
-- [ ] Creational design patterns: Factory, Builder, and Singleton
-- [ ] Structural design patterns: Adapter, Decorator, Facade, and Composite
-- [ ] Behavioral design patterns: Strategy, Observer, State, and Command
-- [ ] Thread-safe design and basic concurrency
-- [ ] Error handling, validation, and edge-case design
-- [ ] LLD case studies: parking lot, elevator, library, and vending machine
+## Next Project
 
-### Final Project
-- [ ] Parking Lot Management System
-  - Apply OOP, SOLID, smart pointers, design patterns, and LLD principles.
-  - Implement vehicles, parking spots, floors, tickets, payments, and entry/exit flow.
-
-### Status Summary
-- Learned so far: Access modifiers, encapsulation, classes and objects, all major inheritance types, constructors, destructors, and polymorphism.
-- Next in line: Rule of 3, Rule of 5, Rule of 0, and move semantics.
-- Final project: Parking Lot Management System.
-- Goal: finish the remaining OOPs topics from the syllabus and revise with practice programs.
+### Parking Lot Management System
+- Apply OOP concepts to a practical system.
+- Design vehicles, parking spots, floors, tickets, payments, and entry/exit flow.
+- Build the project incrementally after the syllabus review.
 
 ## Note
-This is a personal academic and learning repository focused on deep understanding of OOPs in C++.
+
+This is a personal academic and learning repository focused on understanding OOP in C++.
