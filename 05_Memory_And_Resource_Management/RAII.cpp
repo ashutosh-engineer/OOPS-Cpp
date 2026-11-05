@@ -4,6 +4,11 @@
 
 // Acquire the resource at the creation of object means in constructors and release the resource in destructors;
 // Automatic management of resources i sthe Biggest advantage of it;
+//
+// Dynamic-memory connection:
+// RAII ties heap/resource ownership to an object's lifetime. A constructor
+// acquires the resource and the destructor releases it, including during
+// exception-based early exits.
 
 // Without RAII resources need the explicit claenup;
 // Resources such as mutex , files , sockets all that;

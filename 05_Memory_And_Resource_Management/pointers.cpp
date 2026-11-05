@@ -6,6 +6,11 @@
 // Acess values thorugh drefrence operator
 // Refrences acess values directly;
 // Pointers can be NULL but Refrences cannot be NULL;
+//
+// Dynamic memory note:
+// new allocates memory on the heap and returns its address.
+// The owner must use delete for one object and delete[] for an array.
+// After releasing memory, assigning nullptr prevents reuse of the old address.
 
 #include<bits/stdc++.h>
 using namespace std;

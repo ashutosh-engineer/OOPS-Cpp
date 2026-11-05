@@ -99,6 +99,7 @@ This repository tracks my understanding and practice of Object-Oriented Programm
 - [x] Pure Virtual Functions and Abstract Classes — [Purevirt.cpp](./04_Polymorphism/Purevirt.cpp)
 
 ### Memory and Resource Management
+- [x] Dynamic Memory Allocation — [revsiosn.cpp](./revsiosn.cpp)
 - [x] Pointers and References — [pointers.cpp](./05_Memory_And_Resource_Management/pointers.cpp)
 - [x] Const References — [constrefrence.cpp](./05_Memory_And_Resource_Management/constrefrence.cpp)
 - [x] Pass by Value and Reference — [passbyvalue&ref.cpp](./05_Memory_And_Resource_Management/passbyvalue&ref.cpp)

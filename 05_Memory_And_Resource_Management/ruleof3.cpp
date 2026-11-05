@@ -3,6 +3,10 @@
 // 1) destructor
 // 2) copy constructor
 // 3) copy assignment operator
+//
+// This matters for dynamic memory because a raw pointer copy copies only an
+// address. The copy operations below create independent memory, while the
+// destructor releases the owned array exactly once.
 
 #include <bits/stdc++.h>
 using namespace std;
